@@ -32,6 +32,8 @@ print(''''@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 %@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&,@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&,,,/&*@
 ''')
 
+
+
 print("Welcome to Treasure Hunt Game ...")
 print("Your mission is to find the treasure.")
 print("Let's Begin the Treasure Hunt ")
