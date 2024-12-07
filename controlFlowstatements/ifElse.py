@@ -17,7 +17,6 @@ else:
     print("Old Age")
 
 print("Python :: For Loop Statements::")
-
 family = ["Praneeth", "Sushma" , "Prajna" , "Amma" , "Nana"]
 for name in family:
     print("Name:: "+name)
