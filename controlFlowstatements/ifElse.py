@@ -57,7 +57,7 @@ while i < 10:
     i += 1
 
 print("Python :: break Statement")
-print("once a vale reaches as 5 , else enterd and break executed")
+print("once a value reaches as 5 , else enterd and break executed")
 a = 10
 while a > 0:
     if a != 5:
