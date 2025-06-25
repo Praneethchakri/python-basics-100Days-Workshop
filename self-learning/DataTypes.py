@@ -73,3 +73,7 @@ print(bowler.symmetric_difference(batsmen)) # common element in both sets will b
 
 unique_Players = bowler.union(batsmen)
 print(unique_Players) ## By removing the duplicates and keep  all the disticnt values
+
+setdata = {"Ram","Sures"}
+setdata.add("Charan")
+print(setdata)
