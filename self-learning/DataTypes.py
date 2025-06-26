@@ -54,8 +54,6 @@ arts_students_in_Science_both_union = arts_students.union(science_Studnets)
 print(arts_students_in_Science_both_union) # union method remove the duplicates and combine both sets
 
 
-
-
 batsmen = {"Dhoni","Sachin","Rahul","Yuvraj"}
 bowler = {"Zaheer","Jadeja","Yuvraj"}
 batsmenOnly = batsmen.difference(bowler)
