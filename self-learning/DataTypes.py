@@ -36,7 +36,6 @@ print(set_DataType)
 
 
 print("Set Methods ")
-
 arts_students ={"Ramesh","Suresh","Kamal","Pramod"}
 science_Studnets = {"Pramod","Charan","Praneeth"}
 
