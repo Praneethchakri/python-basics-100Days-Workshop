@@ -84,3 +84,15 @@ tupleData = tupleData+('AddingAnother Element ',)
 for s in tupleData:
     print(s)
 
+
+# dictionaries
+myDictionaries = {'Praneeth':'Male','Sushma':"Female",'PrajnaSri':'Female'}
+
+print(myDictionaries.get('Praneeth'))
+myDictionaries['Praneeth']= "MALE" # Updated the value using index data
+print(myDictionaries)
+
+
+# a tuple() contains multiple dictionaries{},{},{} and a list[] contains multiple tuples (),(),()
+
+
