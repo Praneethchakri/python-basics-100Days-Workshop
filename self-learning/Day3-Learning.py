@@ -64,35 +64,61 @@ for s in setData:
 
 setData.clear()  # remove all the elements from the list.
 
-if len(setData) >0:
+if len(setData) > 0:
     for s in setData:
         print("test", s)
 else:
     print("Empty Set Here..")
 
-
-
-
 # tuple data Type
-tupleData = ('Praneeth','Diguvapalem','Chakravarthi')
+tupleData = ('Praneeth', 'Diguvapalem', 'Chakravarthi')
 print("\n")
-print("Printing Tuple Data:: data will be stored in ()  Tuple cannot modify once we create , but can append data by addding in below syntax ")
+print(
+    "Printing Tuple Data:: data will be stored in ()  Tuple cannot modify once we create , but can append data by addding in below syntax ")
 for s in tupleData:
     print(s)
 
-tupleData = tupleData+('AddingAnother Element ',)
+tupleData = tupleData + ('AddingAnother Element ',)
 for s in tupleData:
     print(s)
-
 
 # dictionaries
-myDictionaries = {'Praneeth':'Male','Sushma':"Female",'PrajnaSri':'Female'}
+myDictionaries = {'Praneeth': 'Male', 'Sushma': "Female", 'PrajnaSri': 'Female'}
 
 print(myDictionaries.get('Praneeth'))
-myDictionaries['Praneeth']= "MALE" # Updated the value using index data
+myDictionaries['Praneeth'] = "MALE"  # Updated the value using index data
 print(myDictionaries)
 
-
 # a tuple() contains multiple dictionaries{},{},{} and a list[] contains multiple tuples (),(),()
+# tuple Contains three dictionaries
+tupleDict = (
+    {'name': 'Sachin', 'age': 10},
+    {'name': 'Dhoni', 'age': 7},
+    {'name': 'KapilDev', 'age': 21}
+)
+tupleDict = tupleDict + ({'name': 'Rohit', 'age': 45},)
 
+print(tupleDict[1]['name'] + " " + str(tupleDict[1]['age']))
+
+# dictionary = dict(tupleDict)
+
+# print(dictionary)
+for d in tupleDict:
+    print(d)
+
+listTuple = [('sachin', 54), ('Dhoni', 43), ('KapilDev', 65)]
+
+print(listTuple)
+listTupleToDictionary = dict(listTuple)
+print(listTupleToDictionary)
+print(len(listTupleToDictionary))
+
+for dictionaryDataKey,Value in listTupleToDictionary.items():
+    print(dictionaryDataKey,Value)
+
+for index,key in enumerate(listTupleToDictionary):
+    print(index,key,listTupleToDictionary[key])
+
+for key, value in listTupleToDictionary.items():
+    print(key,value)
 
