@@ -63,9 +63,24 @@ for s in setData:
     print(s)
 
 setData.clear()  # remove all the elements from the list.
+
 if len(setData) >0:
     for s in setData:
         print("test", s)
 else:
     print("Empty Set Here..")
+
+
+
+
+# tuple data Type
+tupleData = ('Praneeth','Diguvapalem','Chakravarthi')
+print("\n")
+print("Printing Tuple Data:: data will be stored in ()  Tuple cannot modify once we create , but can append data by addding in below syntax ")
+for s in tupleData:
+    print(s)
+
+tupleData = tupleData+('AddingAnother Element ',)
+for s in tupleData:
+    print(s)
 
