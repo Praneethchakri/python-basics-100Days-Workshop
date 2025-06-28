@@ -32,6 +32,10 @@ list_Data.reverse()  # self reverse the list
 print("Check")
 print(list_Data)
 
+listData = ['one', 'Two', 'Three', 'Four', 'Five']
+for index, s in enumerate(listData):
+    print(index, s)
+
 # Set
 
 
@@ -113,12 +117,16 @@ listTupleToDictionary = dict(listTuple)
 print(listTupleToDictionary)
 print(len(listTupleToDictionary))
 
-for dictionaryDataKey,Value in listTupleToDictionary.items():
-    print(dictionaryDataKey,Value)
+for dictionaryDataKey, Value in listTupleToDictionary.items():
+    print(dictionaryDataKey, Value)
 
-for index,key in enumerate(listTupleToDictionary):
-    print(index,key,listTupleToDictionary[key])
+for index, key in enumerate(listTupleToDictionary):
+    print(index, key, listTupleToDictionary[key])
 
 for key, value in listTupleToDictionary.items():
-    print(key,value)
+    print(key, value)
 
+listJoin = ['Deutsche Bank', 'Commerz Bank', 'Bank of America']
+
+seprateListBySpcialChar = ','.join(listJoin)
+print(f'''Bank Name's i Know {seprateListBySpcialChar}''')
