@@ -25,3 +25,23 @@ print(nameList[3:5])
 print(nameList[:-3])
 # print(nameList[4:-3])
 print(nameList[-2:])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
