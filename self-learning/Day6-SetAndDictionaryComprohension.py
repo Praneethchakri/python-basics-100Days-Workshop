@@ -22,7 +22,7 @@ print(result3)
 
 jersyNumber = {1, 99, 7, 18, 10, 45}
 
-reservedJerseyNumbers = {7, 10}
+reservedJerseyNumbers = {7, 10,11}
 
 result4 = jersyNumber.intersection(reservedJerseyNumbers)  # intersection will give the common elements
 print(result4)  # 10,7
@@ -31,7 +31,7 @@ result5 = jersyNumber.difference(reservedJerseyNumbers)  # only numbers from the
 print(result5)  # 1,99,18,45
 
 result6 = jersyNumber.symmetric_difference(reservedJerseyNumbers)  #
-print(result6)  # 1,99,18,45,
+print(result6)  # 1,99,11,18,45,
 
 result7 = jersyNumber.union(reservedJerseyNumbers)
 print(result7)  # 1,99,7,18,45,10
