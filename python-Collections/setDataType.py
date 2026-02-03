@@ -20,8 +20,10 @@ print(p_Family_only)
 
 
 # difference() --> The elements which are not in one another.. eg: line 4
-# & symmetric_difference --> The elements which are not the common from both sets -- eg line 28,30
-#intersection : --> Common elements from both sets --> Line eg 34
+# symmetric_difference --> The elements which are not the common from both sets -- eg line 28,30
+# intersection : --> Common elements from both sets --> Line eg 34
+# union : --> all the unique elemtns  and with union the duplicate elemtns will be avoided as set will not allow duplicate
+
 
 group_A = {'Sachin','Sehwag','Dravid'}
 group_B = {'Dhoni','Ganguly','Sachin'}
@@ -32,5 +34,12 @@ symetricData1 = group_B.symmetric_difference(group_A)
 print(symetricData1)
 intersectionData = group_A.intersection(group_B)
 print(intersectionData)
+
+allelements = group_A.union(group_B)
+print(allelements)
+
+#tupple - ()
+#set - {}
+
 
 
