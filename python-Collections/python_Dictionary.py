@@ -15,3 +15,11 @@ print(friend_Details)
 
 
 print(friend_Details)
+
+
+# list with square bracts []
+# allow duplicate and supports mutablility
+# tuple with braces ()
+# allows duplicates but not supports mutablity
+# set with curle braces {}
+# does not allow duplicates
