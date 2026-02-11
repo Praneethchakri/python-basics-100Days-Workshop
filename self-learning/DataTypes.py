@@ -40,9 +40,9 @@ arts_students ={"Ramesh","Suresh","Kamal","Pramod"}
 science_Studnets = {"Pramod","Charan","Praneeth"}
 
 arts_students_not_in_Science = arts_students.difference(science_Studnets)
-print(arts_students_not_in_Science)
+print('difference',arts_students_not_in_Science)
 science_Studnets_not_in_arts = science_Studnets.difference(arts_students) # difference is to remove the commen element in both sets
-print(science_Studnets_not_in_arts)
+print('difference',science_Studnets_not_in_arts)
 
 arts_students_in_Science_both = arts_students.symmetric_difference(science_Studnets) #symetric_difference is to remove the common element in both the sets
 # and make one commone set
