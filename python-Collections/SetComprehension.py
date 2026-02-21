@@ -20,21 +20,44 @@ print(diffResult) # 1,4,6
 diffResult = numSet2.difference(numSet1)
 print(diffResult) # 7 8,9
 
-diffResult = numSet1.symmetric_difference(numSet2)
+sym_diffResult = numSet1.symmetric_difference(numSet2)
 print(diffResult) # 1,4,6,7,8,9
 
-diffResult = numSet2.symmetric_difference(numSet1)
+sym_diffResult = numSet2.symmetric_difference(numSet1)
 print(diffResult)
 
-diffResult = numSet1.intersection(numSet2)
+interSectionResult = numSet1.intersection(numSet2)
 print(diffResult) # 2,3,5
 
-diffResult = numSet2.intersection(numSet1)
+interSectionResult = numSet2.intersection(numSet1)
 print(diffResult)
 
 
-diffResult = numSet1.union(numSet2)
+unionResult = numSet1.union(numSet2)
 print(diffResult)
-diffResult = numSet2.union(numSet1)
+unionResult = numSet2.union(numSet1)
 print(diffResult)
 
+
+
+
+nameSet1 = {"Praneeth","Chakravarthi","Diguvapalem","Chakri"}
+
+nameSet2 = {"Chakravarthi","Diguvapalem","PrajnaSri","Sushma"}
+
+
+diff_Result = nameSet1.difference(nameSet2)
+print(diff_Result) #Praneeth,Chakri
+
+diff_Result = nameSet2.difference(nameSet1)
+print(diff_Result) # PrajnaSri,Sushma
+
+
+sym_diffResult = nameSet1.symmetric_difference(nameSet2)
+print(sym_diffResult)#Praneeth,Chakri,PrajnaSri,Sushma
+
+interSectionResult = nameSet1.intersection(nameSet2)
+print(interSectionResult) # Chakrvarthi,Diguvapalem
+
+unionResult  = nameSet1.union(nameSet2)
+print(unionResult) # all data,except duplicate as set not allows
