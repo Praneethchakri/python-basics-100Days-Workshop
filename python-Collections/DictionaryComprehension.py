@@ -20,3 +20,10 @@ print(f'Result as Dictionary :: {result}')
 
 resultAsList= list(zip(player_Name,jersey_Number))
 print(f'Result as List using Zip function which returns as List of Tuples :: {result}')
+
+
+
+a = [1, 2, 3, 4]
+b = [10, 20]
+
+print(list((a, b)))
