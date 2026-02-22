@@ -16,7 +16,6 @@ for f in friends:
 # way2
 print("way-2"),# start parm to start the counter number from assined value
 for counter ,f in enumerate(friends,start =4):
-
     print(counter)
     print(f)
 
