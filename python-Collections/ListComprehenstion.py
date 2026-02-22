@@ -9,6 +9,6 @@ friends = ['Praneeth','Ramesh','Suresh','Hareesh']
 guest = ['Kumar','Suresh','Praneeth']
 
 
-attendList = [frnd for frnd in friends if frnd in guest]
+attendList = [frnd.title() for frnd in friends if frnd.lower() in guest]
 
 print([f'Party Attended Friends are {f}' for f in attendList])
