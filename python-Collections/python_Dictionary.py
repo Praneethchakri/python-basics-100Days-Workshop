@@ -23,3 +23,4 @@ print(friend_Details)
 # allows duplicates but not supports mutablity
 # set with curle braces {}
 # does not allow duplicates
+# dictionary with key value pair in curly braces
