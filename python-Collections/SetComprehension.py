@@ -39,7 +39,7 @@ unionResult = numSet2.union(numSet1)
 print(diffResult)
 
 
-
+#directly assinged data to Set
 
 nameSet1 = {"Praneeth","Chakravarthi","Diguvapalem","Chakri"}
 
@@ -61,3 +61,25 @@ print(interSectionResult) # Chakrvarthi,Diguvapalem
 
 unionResult  = nameSet1.union(nameSet2)
 print(unionResult) # all data,except duplicate as set not allows
+
+# list to Set with comprehension
+
+
+friendsList = ["Praneeth","Chakravarthi","Diguvapalem","Chakri"]
+
+guestList   = ["Chakravarthi","Diguvapalem","PrajnaSri","Sushma"]
+
+
+friendsSet = {f.lower() for f in friendsList}
+guestsSet  = {g.lower() for g in guestList}
+
+attendess = friendsSet.intersection(guestsSet)
+unattenedFriends = friendsSet.difference(guestsSet)
+
+print(f'Unattended Friends ',{result.title() for result in unattenedFriends})
+print({result.title() for result in attendess})
+
+
+
+
+
