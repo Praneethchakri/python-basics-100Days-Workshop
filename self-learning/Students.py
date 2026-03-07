@@ -10,5 +10,4 @@ class Students:
 student1 = Students("Praneeth","Germany") #once the object creation is done , the very next method to process or assign values to parameter is dunderinitmethod
 
 print(student1.printStudent())
-
 print(Students.printStudent(student1))
