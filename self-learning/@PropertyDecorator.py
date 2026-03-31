@@ -7,7 +7,7 @@ class Person:
     def __str__(self):
         return f"{self.name} of age {self._age}"
 
-    @property # We can make a function to access as vairable using the @Property Decorator, , the function should have only self variable in method
+    @property # We can make a function to access as vairable using the @Property Decorator, the function should have only self variable in method
     def age(self):
         return self._age
 
