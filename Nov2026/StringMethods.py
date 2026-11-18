@@ -24,7 +24,7 @@ print(user.rstrip())
 
 
 print('''# find() gives the positon of string ,)
-# replace() , overrides the string with new String''')
+# replace() , overrides the string with new String in all the occurances''')
 
 print("\n")
 
@@ -32,3 +32,12 @@ sentance1 = "Python is a Language"
 
 print(sentance1.find("Language"))
 print(sentance1.replace("Language","Programming Language"))
+
+# split, will split the string with required char,ex , | and other
+
+
+text = "Fruits are like, Apple,Banana,Grapes,Pipnepapple"
+
+print(text.split(',')[1:])
+
+print(",".join(text.split(',')[1:]))
