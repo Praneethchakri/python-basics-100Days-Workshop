@@ -18,7 +18,7 @@ print(fullName[2:12:3])
 
 
 name = "Praneeth0123456789"
-print(name[:23]) # replace the first empty wiht number 0, in this form, name[0:23]
+print(name[:23]) # replace the first empty with number 0, in this form, name[0:23]
 print(name[8:]) # replace the second empty with number length of String , in this form name[8:23]+
 
 
