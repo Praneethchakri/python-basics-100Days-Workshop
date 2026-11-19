@@ -41,3 +41,10 @@ text = "Fruits are like, Apple,Banana,Grapes,Pipnepapple"
 print(text.split(',')[1:])
 
 print(",".join(text.split(',')[1:]))
+
+
+value = "Python143"
+print(value.isalpha())
+print(value.isdigit())
+print(value.isalnum())
+print(value.isspace())
